@@ -1,0 +1,35 @@
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-100px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }   
+ @keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(100px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }
+
+.animated{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}   
+.fila{
+    -webkit-animation-name: fadeInLeft;
+         animation-name: fadeInLeft;
+}
+.fira{
+    -webkit-animation-name: fadeInRight;
+         animation-name: fadeInRight;
+}
