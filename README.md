@@ -1,4 +1,3 @@
-# Weather_Clock
 <h1>Weather + Clock MERN</h1>
 
 Steps to run - 
