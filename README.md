@@ -1,5 +1,5 @@
 # Weather_Clock
-Weather + Clock MERN
+<h1>Weather + Clock MERN</h1>
 
 Steps to run - 
 1) cd to server dir and "npm start"
